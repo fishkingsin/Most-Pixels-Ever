@@ -82,7 +82,7 @@ void mpeServerTCP::setup(int fps, int port, int numClients)
 	lastFrameTriggeredTime = 0;
 	currentFrame = 0;
 
-	//ofAddListener(ofEvents.update, this, &mpeServerTCP::update);
+	//ofAddListener(ofEvents().update, this, &mpeServerTCP::update);
 
 	cout << "Setting up server with FPS " << fps << " on port " << port << " with clients " << numClients << endl;
 }
@@ -311,7 +311,7 @@ void mpeServerTCP::close()
 {
 	if(!running) return;
 
-	ofRemoveListener(ofEvents.update, this, &mpeServerTCP::update);
+	ofRemoveListener(ofEvents().update, this, &mpeServerTCP::update);
 
 	cout << " closing MPE Server " << endl;
 

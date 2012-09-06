@@ -1,5 +1,5 @@
 <settings>
-	<client_id>0</client_id>
+	<client_id>1</client_id>
 	<client_name>renderer0</client_name>
 	<server>
 		<ip>localhost</ip>
@@ -10,7 +10,7 @@
 		<height>768</height>
 	</local_dimensions>
 	<local_location>
-		<x>0</x>
+		<x>1024</x>
 		<y>0</y>
 	</local_location>
 	<master_dimensions>

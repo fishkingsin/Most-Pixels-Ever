@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxMostPixelsEver.h"
-
+#include "Ball.h"
 class testApp : public ofBaseApp{
 
   public:
@@ -26,6 +26,7 @@ class testApp : public ofBaseApp{
 	void mpeMessageEvent(ofxMPEEventArgs& event);
 	void mpeResetEvent(ofxMPEEventArgs& event);
 	float lastFrameTime;
-	
+	vector<Ball*> balls;
+	float rnd;
 };
 

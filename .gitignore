@@ -92,3 +92,12 @@ apps/*/*/obj
 /apps/nmm/NMMRenderer/bin/data/mpe_config.xml
 /apps/nmm/NMMRenderer/NMMRenderer.xcodeproj/focus.perspectivev3
 /apps/nmm/NMMRenderer/bin/data/LocalSettings.xml
+processing/mpe/.DS_Store
+
+processing/mpe/examples/.DS_Store
+
+processing/mpe/examples/mpeTest/.DS_Store
+
+processing/mpe/examples/mpeTest/client0app/.DS_Store
+
+processing/mpe/examples/mpeTest/client1app/.DS_Store
