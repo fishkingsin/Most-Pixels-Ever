@@ -418,7 +418,7 @@ void mpeClientTCP::threadedFunction() {
 			//we lost connection, start the retry loop and kill the thread
 			lastConnectionAttempt = ofGetElapsedTimef();
 			ofAddListener(ofEvents().update, this, &mpeClientTCP::retryConnectionLoop);
-			stopThread(true);
+			stopThread();
 			if(useMainThread){
 				shouldReset = true;
 			}
