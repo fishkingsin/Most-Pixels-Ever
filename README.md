@@ -6,7 +6,7 @@ one downfall is it isn't compatible with the existing java jar, but only works o
 
 Tested with of 0072
 
-![](https://github.com/fishkingsin/Most-Pixels-Ever/blob/master/ofxMostPixelsEver/screen_shot.png) 
+![](https://raw.github.com/fishkingsin/Most-Pixels-Ever/master/ofxMostPixelsEver/screen_shot.pngscreen_shot class="png"></screen_shot>) 
 
 This version features:
 
