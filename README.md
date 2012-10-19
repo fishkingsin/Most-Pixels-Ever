@@ -1,11 +1,16 @@
 # This Fork
+
 This is an openFrameworks-centric fork of the wonderful Most Pixels Ever library.  
 
 one downfall is it isn't compatible with the existing java jar, but only works openframeworks client  to openframeworks server.
 
+Tested with of 0072
+
+![](https://github.com/fishkingsin/Most-Pixels-Ever/blob/master/ofxMostPixelsEver/screen_shot.png) 
+
 This version features:
 
-* Updated for OF 007
+* Updated for OF 0072
 
 * servers and clients automatically reconnect if things crash/restart and reset the frame count intelligently
 
@@ -40,3 +45,4 @@ Project initiated by Daniel Shiffman with the support of [http://itp.nyu.edu](IT
 Participating developers: Jeremy Rotsztain, Elie Zananiri, Chris Kairalla.
 
 openFrameworks Server and Client redux by James George
+
